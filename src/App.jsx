@@ -27,7 +27,7 @@ function App() {
     <div className="min-h-screen flex flex-wrap content-between bg-blue-100">
       <div className="w-full block">
         <Header />
-        <main>
+        <main className="my-4 py-4">
           <Outlet />
         </main>
         <Footer />
